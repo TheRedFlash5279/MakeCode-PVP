@@ -16,7 +16,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-`, Player_1, 50, 100)
+`, Player_1, 100, 15)
     animation.runImageAnimation(
     Player_1,
     [img`
@@ -185,9 +185,10 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 . . . . . . . . . . . f e e e f e f . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 `],
-    100,
+    60,
     false
     )
+    pause(1000)
 })
 let Bullet: Sprite = null
 let Player_1: Sprite = null
