@@ -185,7 +185,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 . . . . . . . . . . . f e e e f e f . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 `],
-    60,
+    50,
     false
     )
     pause(1000)
