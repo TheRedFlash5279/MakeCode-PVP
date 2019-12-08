@@ -1,7 +1,8 @@
 {
     "name": "PvP",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "animation": "*"
     },
     "description": "",
     "files": [
